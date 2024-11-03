@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    color: #005f73;
+}
+
+.sketch-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.sketch-list li {
+    margin: 10px 0;
+}
+
+.sketch-link {
+    text-decoration: none;
+    color: #0077b6;
+    font-size: 1.1em;
+}
+
+.sketch-link:hover {
+    color: #023e8a;
+}
+
+footer {
+    margin-top: 20px;
+    font-size: 0.9em;
+    color: #555;
+}
