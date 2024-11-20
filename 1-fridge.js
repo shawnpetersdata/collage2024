@@ -10,7 +10,7 @@ function preload() {
 		flyers.push(loadImage(`resources/grocery flyers/${i}.jpg`))
 	}
 	for (let i =0; i<5;i++) {
-		contents.push(loadImage(`resources/fridgeContents/${i}.jpg`))
+		contents.push(loadImage(`resources/fridgeContents/fridgeContents${i}.jpg`))
 	}
 	fridge = loadImage("resources/fridge/fridge1.png")
 	door = loadImage("resources/fridge/fridgedoor1.png")
